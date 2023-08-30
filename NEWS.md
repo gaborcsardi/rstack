@@ -1,4 +1,5 @@
+# rstack (development version)
 
-# 1.0.0
+# rstack 1.0.0
 
 First public release.
