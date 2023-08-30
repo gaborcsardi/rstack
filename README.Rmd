@@ -13,11 +13,11 @@ knitr::opts_chunk$set(
 > Stack data type as an 'R6' class
 
 [![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
-[![Linux Build Status](https://travis-ci.org/MangoTheCat/rstack.svg?branch=master)](https://travis-ci.org/MangoTheCat/rstack)
-[![Windows Build status](https://ci.appveyor.com/api/projects/status/github/MangoTheCat/rstack?svg=true)](https://ci.appveyor.com/project/gaborcsardi/rstack)
+[![Linux Build Status](https://travis-ci.org/gaborcsardi/rstack.svg?branch=master)](https://travis-ci.org/gaborcsardi/rstack)
+[![Windows Build status](https://ci.appveyor.com/api/projects/status/github/gaborcsardi/rstack?svg=true)](https://ci.appveyor.com/project/gaborcsardi/rstack)
 [![](http://www.r-pkg.org/badges/version/rstack)](http://www.r-pkg.org/pkg/rstack)
 [![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/rstack)](http://www.r-pkg.org/pkg/rstack)
-[![Coverage Status](https://img.shields.io/codecov/c/github/MangoTheCat/rstack/master.svg)](https://codecov.io/github/MangoTheCat/rstack?branch=master)
+[![Coverage Status](https://img.shields.io/codecov/c/github/gaborcsardi/rstack/master.svg)](https://codecov.io/github/gaborcsardi/rstack?branch=master)
 
 An extremely simple stack data type, implemented with 'R6' classes. The size
 of the stack increases as needed, and the amortized time complexity is O(1).
@@ -26,7 +26,7 @@ The stack may contain arbitrary objects.
 ## Installation
 
 ```{r eval = FALSE}
-source("https://install-github.me/MangoTheCat/rstack")
+source("https://install-github.me/gaborcsardi/rstack")
 ```
 
 ## Usage
@@ -49,4 +49,4 @@ S$peek()
 
 ## License
 
-MIT © [Mango Solutions](https://github.com/mangothecat)
+MIT © [Mango Solutions](https://github.com/mangothecat), [Gábor Csárdi](https://github.com/gaborcsardi)
