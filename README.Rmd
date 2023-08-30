@@ -1,3 +1,6 @@
+---
+output: github_document
+---
 
 ```{r, setup, echo = FALSE, message = FALSE}
 knitr::opts_chunk$set(
@@ -12,11 +15,11 @@ knitr::opts_chunk$set(
 
 > Stack data type as an 'R6' class
 
-[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![R-CMD-check](https://github.com/gaborcsardi/rstack/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/gaborcsardi/rstack/actions/workflows/R-CMD-check.yaml)
-[![](http://www.r-pkg.org/badges/version/rstack)](http://www.r-pkg.org/pkg/rstack)
-[![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/rstack)](http://www.r-pkg.org/pkg/rstack)
-[![Coverage Status](https://img.shields.io/codecov/c/github/gaborcsardi/rstack/main.svg)](https://codecov.io/github/gaborcsardi/rstack?branch=main)
+[![](https://www.r-pkg.org/badges/version/rstack)](https://www.r-pkg.org/pkg/rstack)
+[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/rstack)](https://www.r-pkg.org/pkg/rstack)
+[![Coverage Status](https://img.shields.io/codecov/c/github/gaborcsardi/rstack/main.svg)](https://app.codecov.io/github/gaborcsardi/rstack?branch=main)
 
 An extremely simple stack data type, implemented with 'R6' classes. The size
 of the stack increases as needed, and the amortized time complexity is O(1).

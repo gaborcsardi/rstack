@@ -1,77 +1,66 @@
 
-
-
 # rstack
 
-> Stack data type as an 'R6' class
+> Stack data type as an ‘R6’ class
 
-[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![Project Status: Active - The project has reached a stable, usable
+state and is being actively
+developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![R-CMD-check](https://github.com/gaborcsardi/rstack/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/gaborcsardi/rstack/actions/workflows/R-CMD-check.yaml)
-[![](http://www.r-pkg.org/badges/version/rstack)](http://www.r-pkg.org/pkg/rstack)
-[![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/rstack)](http://www.r-pkg.org/pkg/rstack)
-[![Coverage Status](https://img.shields.io/codecov/c/github/gaborcsardi/rstack/main.svg)](https://codecov.io/github/gaborcsardi/rstack?branch=main)
+[![](https://www.r-pkg.org/badges/version/rstack)](https://www.r-pkg.org/pkg/rstack)
+[![CRAN RStudio mirror
+downloads](https://cranlogs.r-pkg.org/badges/rstack)](https://www.r-pkg.org/pkg/rstack)
+[![Coverage
+Status](https://img.shields.io/codecov/c/github/gaborcsardi/rstack/main.svg)](https://app.codecov.io/github/gaborcsardi/rstack?branch=main)
 
-An extremely simple stack data type, implemented with 'R6' classes. The size
-of the stack increases as needed, and the amortized time complexity is O(1).
-The stack may contain arbitrary objects.
+An extremely simple stack data type, implemented with ‘R6’ classes. The
+size of the stack increases as needed, and the amortized time complexity
+is O(1). The stack may contain arbitrary objects.
 
 ## Installation
 
-
-```r
+``` r
 source("https://install-github.me/gaborcsardi/rstack")
 ```
 
 ## Usage
 
-
-```r
+``` r
 library(rstack)
 S <- stack$new()
 S$push(1L)
 S$peek()
 ```
 
-```
-#> [1] 1
-```
+    #> [1] 1
 
-```r
+``` r
 S$pop()
 ```
 
-```
-#> [1] 1
-```
+    #> [1] 1
 
-```r
+``` r
 S$size()
 ```
 
-```
-#> [1] 0
-```
+    #> [1] 0
 
-
-```r
+``` r
 S$push(NULL)
 S$push(iris)
 colnames(S$pop())
 ```
 
-```
-#> [1] "Sepal.Length" "Sepal.Width"  "Petal.Length" "Petal.Width" 
-#> [5] "Species"
-```
+    #> [1] "Sepal.Length" "Sepal.Width"  "Petal.Length" "Petal.Width"  "Species"
 
-```r
+``` r
 S$peek()
 ```
 
-```
-#> NULL
-```
+    #> NULL
 
 ## License
 
-MIT © [Mango Solutions](https://github.com/mangothecat), [Gábor Csárdi](https://github.com/gaborcsardi)
+MIT © [Mango Solutions](https://github.com/mangothecat), [Gábor
+Csárdi](https://github.com/gaborcsardi)
