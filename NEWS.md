@@ -1,3 +1,5 @@
+# rstack (development version)
+
 # rstack 1.0.1
 
 No changes.

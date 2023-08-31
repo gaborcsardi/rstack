@@ -1,6 +1,6 @@
 Package: rstack
 Title: Stack Data Type as an 'R6' Class
-Version: 1.0.1
+Version: 1.0.1.9000
 Author: Gábor Csárdi
 Maintainer: Gábor Csárdi <csardi.gabor@gmail.com>
 Description: An extremely simple stack data type, implemented with 'R6'
